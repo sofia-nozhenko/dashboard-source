@@ -1,0 +1,17 @@
+// Sidebar style
+.sidebar-closed {
+    transform: translateX(-100%);
+}
+.toggle-button {
+    position: fixed;
+    top: 35px;
+    left: 25px;
+    cursor: pointer;
+    z-index: 5;
+}
+.sidebar-active {
+    padding-left: 306px;
+}
+.main-wrapper {
+    transition: all 0.3s ease-in-out;
+}
